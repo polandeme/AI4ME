@@ -83,7 +83,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          Hello! I am Polande，
+          Hello! I am Polande
           <PeekabooLink href="https://polande.com">Polande</PeekabooLink>
           开发者、创造者。之前在百度, 当前创业公司 "架构师"。聚焦在 文本及语音对话机器人，AI商业化， 坐标北京。
         </Balancer>

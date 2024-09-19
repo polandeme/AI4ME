@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { count, isNotNull } from 'drizzle-orm'
 import Link from 'next/link'
 import React from 'react'
@@ -116,15 +117,15 @@ export async function Footer() {
             </div>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} Cali Castle. 网站已开源：
+                &copy; {new Date().getFullYear()} Power by 
                 <PeekabooLink href="https://github.com/CaliCastle/cali.so">
-                  GitHub
+                  Castle
                 </PeekabooLink>
               </p>
               <Links />
             </div>
           </Container.Inner>
-          <Container.Inner className="mt-6">
+          {/* <Container.Inner className="mt-6">
             <div className="flex flex-col items-center justify-start gap-2 sm:flex-row">
               <React.Suspense>
                 <TotalPageViews />
@@ -133,7 +134,7 @@ export async function Footer() {
                 <LastVisitorInfo />
               </React.Suspense>
             </div>
-          </Container.Inner>
+          </Container.Inner> */}
         </div>
       </Container.Outer>
     </footer>
