@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'Polande,创造者,架构师,开源,开发者,程序员,产品',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     siteName: 'Cali Castle',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://polande.com',
   },
   twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
+    site: '@polandeme',
+    creator: '@polandeme',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,
