@@ -31,6 +31,7 @@ function Designer() {
   )
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function OCD() {
   return (
     <span className="group inline-flex items-center">
@@ -40,6 +41,7 @@ function OCD() {
   )
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function Founder() {
   return (
     <span className="group inline-flex items-center">
